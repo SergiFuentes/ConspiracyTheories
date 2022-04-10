@@ -1,0 +1,10 @@
+{
+    "conspiracy_theroies":[
+        {
+            "id":1, 
+            "title": "Flat earth",
+            "image": "img.jpg"
+        }
+    ]
+
+}
