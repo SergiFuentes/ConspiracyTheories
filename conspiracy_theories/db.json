@@ -1,0 +1,20 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "img": "img.jpg",
+      "author": "user1"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "cardId": 1
+    }
+  ],
+  "profile": {
+    "name": "user1"
+  }
+}
