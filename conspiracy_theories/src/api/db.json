@@ -1,10 +1,29 @@
 {
-    "conspiracy_theroies":[
-        {
-            "id":1, 
-            "title": "Flat earth",
-            "image": "img.jpg"
-        }
-    ]
-
+  "items": [
+    {
+      "name": "Mates",
+      "image": "maths.png",
+      "id": 1649662214769
+    },
+    {
+      "name": "Natus",
+      "image": "natus.png",
+      "id": 1649662237977
+    },
+    {
+      "name": "Socis",
+      "image": "Socis.png",
+      "id": 1649662258649
+    },
+    {
+      "name": "Filo",
+      "image": "Filo.png",
+      "id": 1649662290524
+    },
+    {
+      "name": "Física",
+      "image": "Física.png",
+      "id": 1649662375704
+    }
+  ]
 }

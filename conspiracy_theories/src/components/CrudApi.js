@@ -13,7 +13,7 @@ export const CrudApi = () => {
     const [ loading , setLoading ] = useState( false );
         
     let api = helpHttp();
-    let url = "http://localhost:5000/conspiracy_theroies";
+    let url = "http://localhost:5000/items";
     
     useEffect( () =>
     {
@@ -109,7 +109,7 @@ export const CrudApi = () => {
 
     return (
         <div>
-            <h2>The Magic wolrd of non true </h2>
+            <h2>The items </h2>
             <article className="grid-1-2">
                 <CrudForm
                     createData={ createData }

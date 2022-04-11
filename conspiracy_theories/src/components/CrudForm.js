@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const initialForm = {
     name: '',
-    email: '',
+    image: '',
     id: null,
 };
 
@@ -33,7 +33,7 @@ export const CrudForm = ( { createData, updateData, dataToEdit, setDataToEdit } 
     {
         e.preventDefault();
 
-        if (!form.name || !form.email) {
+        if (!form.name || !form.image) {
             alert( 'Incomplete data' );
             return;
         }
@@ -59,7 +59,7 @@ export const CrudForm = ( { createData, updateData, dataToEdit, setDataToEdit } 
             <h3>{dataToEdit? "Edit":"Add"}</h3>
             <form onSubmit={handleSubmit}>
                 <input type="text" name='name' placeholder='Name' onChange={handleChange} value={form.name}/>
-                <input type="email" name='email' placeholder='email' onChange={handleChange} value={form.email}/>
+                <input type="text" name='image' placeholder='image' onChange={handleChange} value={form.image}/>
                 <input type='submit' value='Send' />
                 <input type='reset' value='Clear' onClick={handleReset} />
                 
